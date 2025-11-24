@@ -1,42 +1,12 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1b26;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#24283b;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="wheelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7aa2f7;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#7dcfff;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+  <!-- Background - flat blue -->
+  <rect width="512" height="512" fill="#7aa2f7"/>
 
-  <!-- Background Circle -->
-  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
-
-  <!-- Outer Ring (bike wheel rim) -->
-  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#wheelGradient)" stroke-width="16" opacity="0.8"/>
-
-  <!-- Spokes -->
-  <g stroke="#7aa2f7" stroke-width="4" opacity="0.6">
-    <line x1="256" y1="76" x2="256" y2="436"/>
-    <line x1="76" y1="256" x2="436" y2="256"/>
-    <line x1="128" y1="128" x2="384" y2="384"/>
-    <line x1="384" y1="128" x2="128" y2="384"/>
-  </g>
-
-  <!-- Center Hub -->
-  <circle cx="256" cy="256" r="50" fill="#24283b" stroke="#bb9af7" stroke-width="6"/>
-
-  <!-- VHCC Letters -->
-  <text x="256" y="210" font-family="'SF Mono', 'Monaco', monospace" font-size="48" font-weight="700" fill="#7dcfff" text-anchor="middle">VHCC</text>
-
-  <!-- Year -->
-  <text x="256" y="280" font-family="'SF Mono', 'Monaco', monospace" font-size="32" font-weight="600" fill="#9ece6a" text-anchor="middle">2026</text>
-
-  <!-- Speed lines (dynamic effect) -->
-  <g opacity="0.3">
-    <line x1="340" y1="150" x2="410" y2="120" stroke="#e0af68" stroke-width="3" stroke-linecap="round"/>
-    <line x1="350" y1="180" x2="430" y2="160" stroke="#e0af68" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="340" y1="210" x2="420" y2="200" stroke="#e0af68" stroke-width="2" stroke-linecap="round"/>
-  </g>
+  <!-- VH text -->
+  <text x="256" y="320"
+        font-family="'SF Mono', 'Monaco', monospace"
+        font-size="240"
+        font-weight="700"
+        fill="#1a1b26"
+        text-anchor="middle">VH</text>
 </svg>
