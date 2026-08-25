@@ -1,15 +1,17 @@
-# Vieux Hull Cycling Club - WTRL Racing Team 🚴
+# Vieux Hull Cycling Club - ZRL Racing Team
 
-Landing page pour l'équipe de course WTRL 2026.
+Landing page pour l'équipe de course ZRL 2026/27.
 
 ## À propos
 
-Site d'information pour les membres prospectifs de l'équipe Vieux Hull Cycling Club participant à la Zwift Racing League (ZRL) organisée par WTRL.
+Site d'information pour les membres actuels et prospectifs du Vieux Hull Cycling Club qui veulent participer à la Zwift Racing League (ZRL), organisée par WTRL.
 
-**Ronde 3: "Redline Rally"**
-- Dates: 6 janvier - 10 février 2026
-- Catégorie: C
+**Ronde 1: Fresh & Fast**
+- Dates: 22 septembre - 27 octobre 2026
+- Date limite d'inscription: 18 septembre 2026 à 23:00 UTC
+- Placement: catégories Zwift Pace Group, basées sur zFTP et zMAP
 - Format: Course en équipe (mardis soir)
+- Équipe: jusqu'à 10 coureurs, 5 coureurs par semaine
 
 ## Design
 
@@ -37,16 +39,19 @@ Déployé via GitHub Pages à [vieuxhull.cc](https://vieuxhull.cc)
 
 - [Club Zwift](https://www.zwift.com/clubs/a2512c04-b799-4d58-b819-3aed9c6c6547/home)
 - [WTRL Registration](https://www.wtrl.racing/registration)
+- [WTRL ZRL](https://www.wtrl.racing/zrl/)
+- [WTRL ZRL Schedule](https://www.wtrl.racing/zrl/schedule/)
+- [WTRL Rules & Scoring](https://www.wtrl.racing/zrl/resources/)
 - [ZwiftPower](https://zwiftpower.com/)
 
 ## Contenu
 
-Basé sur la recherche exhaustive des meilleures pratiques WTRL:
-- Formats de course (TTT, Points Race, Scratch Race)
-- Exigences d'équipement
-- Stratégies d'achats Zwift
-- Tactiques de course
-- Guide d'inscription
+Le site met maintenant l'accent sur l'onboarding:
+- Dates et contraintes de la ronde 1
+- Étapes pour joindre VHCC, ZwiftPower et WTRL
+- Exigence de 2 courses compétitives de 30 minutes ou plus pour les coureurs sans catégorie
+- Différence Standard vs Development
+- Décisions VHCC à confirmer: nombre d'équipes, capitaines, créneau horaire et roster final
 
 ---
 
