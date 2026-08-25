@@ -32,7 +32,6 @@ body {
     color: var(--fg-primary);
     line-height: 1.6;
     font-size: 16px;
-    scroll-behavior: smooth;
 }
 
 .container {
@@ -43,38 +42,17 @@ body {
 
 /* Slide Styles */
 .slide {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 4rem 2rem 2rem;
+    padding: 4rem 2rem 0;
     position: relative;
 }
 
 .slide-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    max-width: 100%;
 }
 
 .slide-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2rem;
+    margin-top: 4rem;
     border-top: 1px solid var(--border);
-    color: var(--fg-dim);
-    font-size: 0.875rem;
-}
-
-/* Separator (---) */
-.separator {
-    text-align: center;
-    color: var(--comment);
-    font-size: 2rem;
-    padding: 3rem 0;
-    letter-spacing: 0.5rem;
 }
 
 /* Typography */
@@ -543,11 +521,6 @@ a:hover {
         height: 2.5rem;
         font-size: 1.25rem;
     }
-}
-
-/* Smooth Scroll */
-html {
-    scroll-padding-top: 2rem;
 }
 
 /* Selection Color */

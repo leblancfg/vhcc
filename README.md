@@ -17,8 +17,8 @@ Site d'information pour les membres actuels et prospectifs du Vieux Hull Cycling
 
 - Style inspiré de l'outil CLI [slides](https://github.com/maaslalani/slides)
 - Thème: Tokyo Night
-- Format: Single-page avec sections style "slides"
-- Navigation: Scroll ou clavier (flèches, Home, End)
+- Format: page unique avec sections séparées par des lignes fines
+- Navigation: scroll standard du navigateur
 
 ## Développement local
 
