@@ -114,6 +114,6 @@ document.querySelectorAll('.format-card, .budget-card, .tactic-card, .step, .poi
     observer.observe(el);
 });
 
-console.log('🚴 Vieux Hull Cycling Club - WTRL 2026');
+console.log('Vieux Hull Cycling Club - ZRL 2026/27');
 console.log('Tokyo Night theme loaded');
 console.log('Keyboard navigation: ← → ↑ ↓ keys, Home, End');
